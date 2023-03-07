@@ -1,0 +1,37 @@
+body {
+    background-color: lightgray;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Tajawal', sans-serif;
+}
+
+h3 {
+    font-family: monospace;
+    color: green;
+}
+
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+}
+
+ul li div {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid white;
+    margin-right: 5px;
+}
